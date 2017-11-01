@@ -1,0 +1,12 @@
+C:\Git\JogoDosAnimais\src\JogoDosAnimais\JogoDosAnimais.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Git\JogoDosAnimais\src\JogoDosAnimais\JogoDosAnimais.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Git\JogoDosAnimais\src\JogoDosAnimais\JogoDosAnimais.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Git\JogoDosAnimais\src\JogoDosAnimais\JogoDosAnimais.Test\bin\Debug\JogoDosAnimais.Test.dll
+C:\Git\JogoDosAnimais\src\JogoDosAnimais\JogoDosAnimais.Test\bin\Debug\JogoDosAnimais.Test.pdb
+C:\Git\JogoDosAnimais\src\JogoDosAnimais\JogoDosAnimais.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Git\JogoDosAnimais\src\JogoDosAnimais\JogoDosAnimais.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Git\JogoDosAnimais\src\JogoDosAnimais\JogoDosAnimais.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Git\JogoDosAnimais\src\JogoDosAnimais\JogoDosAnimais.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Git\JogoDosAnimais\src\JogoDosAnimais\JogoDosAnimais.Test\obj\Debug\JogoDosAnimais.Test.csprojResolveAssemblyReference.cache
+C:\Git\JogoDosAnimais\src\JogoDosAnimais\JogoDosAnimais.Test\obj\Debug\JogoDosAnimais.Test.dll
+C:\Git\JogoDosAnimais\src\JogoDosAnimais\JogoDosAnimais.Test\obj\Debug\JogoDosAnimais.Test.pdb

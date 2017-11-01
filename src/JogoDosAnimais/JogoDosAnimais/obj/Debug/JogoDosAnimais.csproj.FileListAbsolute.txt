@@ -1,0 +1,16 @@
+C:\Git\JogoDosAnimais\src\JogoDosAnimais\JogoDosAnimais\bin\Debug\JogoDosAnimais.exe.config
+C:\Git\JogoDosAnimais\src\JogoDosAnimais\JogoDosAnimais\bin\Debug\JogoDosAnimais.exe
+C:\Git\JogoDosAnimais\src\JogoDosAnimais\JogoDosAnimais\bin\Debug\JogoDosAnimais.pdb
+C:\Git\JogoDosAnimais\src\JogoDosAnimais\JogoDosAnimais\obj\Debug\JogoDosAnimais.csprojResolveAssemblyReference.cache
+C:\Git\JogoDosAnimais\src\JogoDosAnimais\JogoDosAnimais\obj\Debug\App.g.cs
+C:\Git\JogoDosAnimais\src\JogoDosAnimais\JogoDosAnimais\obj\Debug\JogoDosAnimais_MarkupCompile.cache
+C:\Git\JogoDosAnimais\src\JogoDosAnimais\JogoDosAnimais\obj\Debug\JogoDosAnimais_MarkupCompile.lref
+C:\Git\JogoDosAnimais\src\JogoDosAnimais\JogoDosAnimais\obj\Debug\JogoDosAnimais.g.resources
+C:\Git\JogoDosAnimais\src\JogoDosAnimais\JogoDosAnimais\obj\Debug\JogoDosAnimais.Properties.Resources.resources
+C:\Git\JogoDosAnimais\src\JogoDosAnimais\JogoDosAnimais\obj\Debug\JogoDosAnimais.csproj.GenerateResource.Cache
+C:\Git\JogoDosAnimais\src\JogoDosAnimais\JogoDosAnimais\obj\Debug\JogoDosAnimais.exe
+C:\Git\JogoDosAnimais\src\JogoDosAnimais\JogoDosAnimais\obj\Debug\JogoDosAnimais.pdb
+C:\Git\JogoDosAnimais\src\JogoDosAnimais\JogoDosAnimais\obj\Debug\UI\MainWindow.g.cs
+C:\Git\JogoDosAnimais\src\JogoDosAnimais\JogoDosAnimais\obj\Debug\UI\MainWindow.baml
+C:\Git\JogoDosAnimais\src\JogoDosAnimais\JogoDosAnimais\obj\Debug\UI\Desisto.g.cs
+C:\Git\JogoDosAnimais\src\JogoDosAnimais\JogoDosAnimais\obj\Debug\UI\Desisto.baml
