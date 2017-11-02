@@ -4,6 +4,6 @@ namespace JogoDosAnimais
 {
     public interface IConhecimento
     {
-        IConhecimento Catalogar(IInteracao acaoUsuario);
+        IConhecimento ExecutarAcao(IInteracao acaoUsuario);
     }
 }

@@ -1,4 +1,5 @@
 ﻿using System.Windows;
+using System.Windows.Input;
 using JogoDosAnimais.ViewModel;
 
 namespace JogoDosAnimais.UI
@@ -19,15 +20,15 @@ namespace JogoDosAnimais.UI
         public string RetornarTextoInformado() 
             => _viewModel.RetornarTextoInfomado();
 
-        private void Cancelar(object sender, RoutedEventArgs e)
+        private void FecharTela(object sender, RoutedEventArgs e)
         {
             Close();
         }
 
-        private void Ok(object sender, RoutedEventArgs e)
+        private void InputDialog_OnKeyDown(object sender, KeyEventArgs e)
         {
-            Close();
+            if(e.Key == Key.Enter || e.Key == Key.Escape)
+                Close();
         }
-
     }
 }

@@ -1,8 +1,7 @@
 ﻿using System.Windows;
 using JogoDosAnimais.Interfaces;
-using JogoDosAnimais.UI;
 
-namespace JogoDosAnimais
+namespace JogoDosAnimais.UI
 {
     public class Interacao : IInteracao
     {
@@ -13,11 +12,11 @@ namespace JogoDosAnimais
             
             return inputDialog.RetornarTextoInformado();
         }
-        public bool Perguntar(string pergunta) =>
-             MessageBox.Show(pergunta, "Confirme", MessageBoxButton.YesNo, MessageBoxImage.Question) == MessageBoxResult.Yes;
+        public bool Perguntar(string pergunta)
+            => MessageBox.Show(pergunta, "Confirme", MessageBoxButton.YesNo, MessageBoxImage.Question) == MessageBoxResult.Yes;
 
-        public void MostrarVitoria() => 
-            MessageBox.Show("Vitória", "Acertei de novo!", MessageBoxButton.OK, MessageBoxImage.Exclamation);
+        public void MostrarVitoria() 
+            => MessageBox.Show("Acertei de novo!", "Vitória", MessageBoxButton.OK, MessageBoxImage.Exclamation);
 
     }
 }

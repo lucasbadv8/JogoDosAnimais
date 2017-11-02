@@ -17,12 +17,12 @@ namespace JogoDosAnimais
             _conhecimentoNao = conhecimentoNao;
         }
 
-        public IConhecimento Catalogar(IInteracao acaoUsuario)
+        public IConhecimento ExecutarAcao(IInteracao acaoUsuario)
         {
             if(acaoUsuario.Perguntar($"O animal que você pensou {_caracteristicaDoAnimal} ?"))
-                _conhecimentoSim = _conhecimentoSim.Catalogar(acaoUsuario);
+                _conhecimentoSim = _conhecimentoSim.ExecutarAcao(acaoUsuario);
             else
-                _conhecimentoNao = _conhecimentoNao.Catalogar(acaoUsuario);
+                _conhecimentoNao = _conhecimentoNao.ExecutarAcao(acaoUsuario);
             return this;
         }
     }
