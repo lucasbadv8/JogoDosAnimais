@@ -16,19 +16,29 @@ namespace JogoDosAnimais.UI
             _viewModel = new InputDialogVm(titulo, pergunta);
             DataContext = _viewModel;
         }
+        private void OkClick(object sender, RoutedEventArgs e) 
+            => Close();
 
         public string RetornarTextoInformado() 
             => _viewModel.RetornarTextoInfomado();
 
-        private void FecharTela(object sender, RoutedEventArgs e)
+        private void CancelarClick(object sender, RoutedEventArgs e)
+            => LimparCampoFecharTela();
+
+
+        private void LimparCampoFecharTela()
         {
+            _viewModel.LimparTextoInformado();
             Close();
         }
 
         private void InputDialog_OnKeyDown(object sender, KeyEventArgs e)
         {
-            if(e.Key == Key.Enter || e.Key == Key.Escape)
+            if(e.Key == Key.Enter)
                 Close();
+            else if (e.Key == Key.Escape)
+                LimparCampoFecharTela();
+
         }
     }
 }

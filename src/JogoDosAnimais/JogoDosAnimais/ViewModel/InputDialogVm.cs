@@ -6,6 +6,7 @@
         public string Mensagem { get; private set; }
         public string TextoInformado { get; set; }
         public string RetornarTextoInfomado() => TextoInformado;
+        public void LimparTextoInformado() => TextoInformado = string.Empty;
         public InputDialogVm(string titulo,string mensagem)
         {
             Titulo = titulo;

@@ -1,6 +1,4 @@
-﻿using JogoDosAnimais.Interfaces;
-
-namespace JogoDosAnimais
+﻿namespace JogoDosAnimais.Interfaces
 {
     public interface IConhecimento
     {

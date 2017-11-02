@@ -1,6 +1,6 @@
 ﻿using JogoDosAnimais.Interfaces;
 
-namespace JogoDosAnimais
+namespace JogoDosAnimais.Estrutura
 {
     public class Catalogo : IConhecimento
     {

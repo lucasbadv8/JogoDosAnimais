@@ -12,7 +12,7 @@
         </Style>
         <Style TargetType="TextBox">
             <Setter Property="BorderBrush" Value="Black"/>
-            <Setter Property="Height" Value="25"/>
+            <Setter Property="Height" Value="20"/>
             <Setter Property="MaxLength" Value="60"/>
         </Style>
         <Style TargetType="Button">
@@ -23,10 +23,10 @@
     </Window.Resources>
     <WrapPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
         <TextBlock Text="{Binding Mensagem}"/>
-        <TextBox Text="{Binding TextoInformado,Mode=OneWayToSource}" TextWrapping="Wrap"/>
+        <TextBox Text="{Binding TextoInformado,Mode=OneWayToSource,UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap"/>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-            <Button Content="Ok" Width="100" HorizontalAlignment="Left" Click="FecharTela" />
-            <Button Content="Cancelar" Width="100" HorizontalAlignment="Right" Click="FecharTela"/>
+            <Button Content="Ok" Width="100" HorizontalAlignment="Left" Click="OkClick" />
+            <Button Content="Cancelar" Width="100" HorizontalAlignment="Right" Click="CancelarClick"/>
         </StackPanel>
     </WrapPanel>
 </Window>

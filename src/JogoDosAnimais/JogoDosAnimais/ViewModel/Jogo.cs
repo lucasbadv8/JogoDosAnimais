@@ -7,14 +7,11 @@ namespace JogoDosAnimais.ViewModel
     {
         private Catalogo _conhecimento;
         private Interacao _acaoUsuario;
-        public Jogo()
-        {
-            PrimeiroConhecimento();
-        }
+
+        public Jogo() {PrimeiroConhecimento();}
+
         public void Jogar()
-        {
-            _conhecimento.ExecutarAcao(_acaoUsuario);
-        }
+            => _conhecimento.ExecutarAcao(_acaoUsuario);
 
         private void PrimeiroConhecimento()
         {
