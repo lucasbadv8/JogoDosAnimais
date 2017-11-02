@@ -12,5 +12,5 @@ C:\Git\JogoDosAnimais\src\JogoDosAnimais\JogoDosAnimais\obj\Debug\JogoDosAnimais
 C:\Git\JogoDosAnimais\src\JogoDosAnimais\JogoDosAnimais\obj\Debug\JogoDosAnimais.pdb
 C:\Git\JogoDosAnimais\src\JogoDosAnimais\JogoDosAnimais\obj\Debug\UI\MainWindow.g.cs
 C:\Git\JogoDosAnimais\src\JogoDosAnimais\JogoDosAnimais\obj\Debug\UI\MainWindow.baml
-C:\Git\JogoDosAnimais\src\JogoDosAnimais\JogoDosAnimais\obj\Debug\UI\Desisto.g.cs
-C:\Git\JogoDosAnimais\src\JogoDosAnimais\JogoDosAnimais\obj\Debug\UI\Desisto.baml
+C:\Git\JogoDosAnimais\src\JogoDosAnimais\JogoDosAnimais\obj\Debug\UI\InputDialog.g.cs
+C:\Git\JogoDosAnimais\src\JogoDosAnimais\JogoDosAnimais\obj\Debug\UI\InputDialog.baml

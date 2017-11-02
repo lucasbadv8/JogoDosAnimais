@@ -54,16 +54,17 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="IInteracao.cs" />
+    <Compile Include="Interfaces\IInteracao.cs" />
     <Compile Include="Interacao.cs" />
-    <Compile Include="Animal.cs" />
-    <Compile Include="Conhecimento.cs" />
-    <Compile Include="IConhecimento.cs" />
-    <Compile Include="UI\Desisto.xaml.cs">
-      <DependentUpon>Desisto.xaml</DependentUpon>
+    <Compile Include="Pergunta.cs" />
+    <Compile Include="Catalogo.cs" />
+    <Compile Include="Interfaces\IConhecimento.cs" />
+    <Compile Include="UI\InputDialog.xaml.cs">
+      <DependentUpon>InputDialog.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ViewModel\InputDialogVm.cs" />
     <Compile Include="ViewModel\Jogo.cs" />
-    <Page Include="UI\Desisto.xaml">
+    <Page Include="UI\InputDialog.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

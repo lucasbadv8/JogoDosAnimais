@@ -16,7 +16,7 @@ namespace JogoDosAnimais
             DataContext = _viewModel;
         }
 
-        private async void IniciarJogo(object sender, RoutedEventArgs e)
+        private void IniciarJogo(object sender, RoutedEventArgs e)
         {
             _viewModel.Jogar();
         }

@@ -1,5 +1,4 @@
-﻿using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
 using JogoDosAnimais.UI;
 
 namespace JogoDosAnimais.ViewModel
@@ -7,15 +6,18 @@ namespace JogoDosAnimais.ViewModel
     public class Jogo
     {
 
-        public async void Jogar()
+        public void Jogar()
         {
             
-            var animalAquatico = new Animal();
-            var animalTerrestre = new Animal();
-
-            //var conhecimento = new Conhecimento();
-
+            var sobreAnimalAquatico = new Pergunta("Tubarão");
+            var sobreAnimalTerrestre = new Pergunta("Macaco");
             var acaoUsuario = new Interacao();
+            var conhecimento = new Catalogo("vive na água",sobreAnimalTerrestre, sobreAnimalAquatico);
+
+            do
+            {
+                conhecimento.Catalogar(acaoUsuario);
+            } while (true);
 
             //MessageBox.Show("Teste","Testando",MessageBoxButton.YesNo,MessageBoxImage.Question);
 
